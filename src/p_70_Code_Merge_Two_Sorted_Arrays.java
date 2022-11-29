@@ -44,7 +44,7 @@
 
 
 import java.util.*;
-public class p_70_Code_Merge_Two_Sorted_Arrays {
+public class P_70_Code_Merge_Two_Sorted_Arrays {
 	
 	public static int [] inputArray(Scanner ip, int no) {
 		System.out.println("So, now enter the length of your array" + no + " :- ");
