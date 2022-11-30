@@ -36,7 +36,7 @@
 
 
 import java.util.*;
-public class p_58_Arrange_Numbers_In_Array {
+public class P_58_Arrange_Numbers_In_Array {
 
 	public static void main(String[] args) {
 		Scanner ip = new Scanner(System.in);
