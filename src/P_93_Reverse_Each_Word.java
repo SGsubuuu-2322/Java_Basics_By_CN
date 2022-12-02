@@ -34,20 +34,9 @@ public class P_93_Reverse_Each_Word {
 		if(len == 0)
 			return tStr;
 		int i = 0;
-		int j = 0;
 		while(i < len){
-			if(str.charAt(i) == ' '){
-				for( j = 0; j < i; j++){
-					tStr = str.charAt(j) + tStr;
-				}
-				j = i;
-			}
-			else if(str.charAt(i) == len-1){
-				for(i = 0; j < i; j++){
-					tStr = str.charAt(j) + tStr;
-				}
-				j = i;
-			}
+			tStr = str.charAt(i) + tStr;
+			i++;
 		}
 		return tStr;
 	}
