@@ -11,6 +11,11 @@ public class Dynamic_Array_Execution_Class {
 		dArray.add(1);
 		dArray.disPlay();
 		
+		System.out.println(dArray.getElement(2));
+		System.out.println(dArray.getElement(5));
+		dArray.setElement(3, 5);
+		dArray.disPlay();
+		
 
 	}
 

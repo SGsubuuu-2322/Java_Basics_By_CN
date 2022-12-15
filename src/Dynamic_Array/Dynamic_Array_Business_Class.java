@@ -36,6 +36,19 @@ public class Dynamic_Array_Business_Class {
 				System.out.print(", ");
 		}
 		System.out.print(")");
+		System.out.println();
+	}
+	
+	public int getElement(int index){
+		if(index >= size)
+			return -1;
+		return arr[index];
+	}
+	
+	public void setElement(int index, int value){
+		if(index >= size)
+			return;
+		arr[index] = value;
 	}
 	
 }
