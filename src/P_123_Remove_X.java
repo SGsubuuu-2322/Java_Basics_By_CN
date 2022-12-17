@@ -31,11 +31,12 @@ public class P_123_Remove_X {
 			return str;
 		
 		if(str.charAt(0) == 'x')
-			return str.substring(1);
+			return removeX(str.substring(1));
 		else
 			return str.charAt(0)+removeX(str.substring(1));
 		
 	}
+	
 
 	public static void main(String[] args) {
 		Scanner ip = new Scanner(System.in);
