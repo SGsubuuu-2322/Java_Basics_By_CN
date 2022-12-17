@@ -1,8 +1,14 @@
-package Generics;
+package Generics_I;
 
 public class PairUse {
 
 	public static void main(String[] args) {
+		
+		Pair<String, Integer> pInner = new Pair<>("adsf", 4334);
+		Pair<Pair<String, Integer>, String> p = new Pair<>();
+		p.setPair1(pInner);
+		System.out.println(p.getPair1().getPair1());
+		System.out.println(p.getPair1().getPair2());
 		
 //		Pair<String> pst = new Pair<>();
 //		pst.getPair();
@@ -24,10 +30,10 @@ public class PairUse {
 		
 //		Pair<Vehicle> pv = new Pair<Vehicle>(34);
 		
-		Pair<Integer, String> pis = new Pair<>(2322, "SGgelhi");
-		pis.getPair();
-		pis.setPair(2223, "GSsubuu");
-		pis.getPair();
+//		Pair<Integer, String> pis = new Pair<>(2322, "SGgelhi");
+//		pis.getPair();
+//		pis.setPair(2223, "GSsubuu");
+//		pis.getPair();
 		
 	}
 
