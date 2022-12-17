@@ -58,7 +58,6 @@ public class P_118_Check_Number_in_Array {
 			}
 			
 			res = findNumber(arr, num, count-1);
-			return res;
 			
 		}
 		return res;
